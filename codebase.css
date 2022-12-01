@@ -120,10 +120,16 @@ ul{
     border: 1.8px solid gray;
     border-radius: 8px;
 }
+.box h5{
+    font-size: 1.1rem;
+}
+.box h4{
+    font-size: 1.3rem;
+}
 .box p{
     padding: 20px 30px;
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 .box img{
     width: 20%;
@@ -196,7 +202,8 @@ ul{
 .part5top{
    display: flex;
    justify-content: space-evenly;
-   padding: 40px;
+   align-items: center;
+   padding: 40px 100px;
 }
 .part5top img{
     width: 15%;
@@ -223,7 +230,8 @@ ul{
 .part5bottom{
     display: flex;
     justify-content: space-evenly;
-    padding: 40px;
+    align-items: center;
+    padding: 40px 100px;
 }
 .part6{
     padding: 90px 60px;
@@ -242,8 +250,9 @@ ul{
 .numbers h1{
    border: 9px solid #471aff;
    color: #471aff;
-   border-radius: 50%;
-   padding: 3px 10px;
+   border-radius: 100%;
+   width: 90px;
+   height: 90px;
    margin: 60px 0;
 }
 .picture{
@@ -329,8 +338,6 @@ i{
     padding: 10px 20px;
     font-size: 1.5rem;
     margin-top: 20px;
-}
-.endicon{
 }
 .endicon p{
    padding:  5px 10px;
